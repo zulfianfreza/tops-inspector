@@ -18,6 +18,13 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
+            <head>
+                <link
+                    rel="shortcut icon"
+                    href="/logo-square.png"
+                    type="image/x-icon"
+                />
+            </head>
             <body className=" antialiased tracking-tighter">{children}</body>
         </html>
     );

@@ -38,7 +38,7 @@ export default function Contact() {
                                 width={40}
                                 alt="wa"
                             />
-                            Hubungin WhatsApp
+                            WhatsApp
                         </Link>
                         <Link
                             href=""
