@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require("tailwindcss/defaultTheme");
+const { fontFamily } = require("tailwindcss/defaultTheme");
 module.exports = {
     content: [
         "./app/**/*.{js,ts,jsx,tsx}",
@@ -28,6 +28,9 @@ module.exports = {
                     light: "#F8B2A5",
                 },
                 "dark-silver": "#6D6D6D",
+            },
+            fontFamily: {
+                sans: ["Plus Jakarta Sans", ...fontFamily.sans],
             },
         },
     },
