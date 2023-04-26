@@ -10,7 +10,7 @@ export default function Navbar() {
     return (
         <>
             <Element name="home">
-                <div className=" w-full py-3 lg:py-4 text-white text-[16px] lg:text-[24px] bg-primary flex items-center">
+                <div className=" w-full py-2.5 text-white text-[16px] bg-primary flex items-center">
                     <marquee>
                         inpeksi kendaraan berkualitas & berpengalaman ! inpeksi
                         kendaraan berkualitas & berpengalaman ! inpeksi
@@ -33,14 +33,14 @@ export default function Navbar() {
                         spy={true}
                         smooth="easeInOutQuart"
                         duration={1000}
-                        className={` cursor-pointer py-[15px] duration-300 transition px-2.5 border-b-[2px] hover:bg-secondary-lighten hover:border-b-secondary hover:text-secondary-dark ${
+                        className={` cursor-pointer py-[15px] duration-300 transition px-2.5 hover:text-secondary ${
                             active == "home"
-                                ? " bg-secondary-lighten border-b-secondary text-secondary-dark"
-                                : "bg-transparent border-b-transparent text-yankess"
+                                ? " text-secondary"
+                                : "bg-transparent text-yankess"
                         }`}
                         onSetActive={() => setActive("home")}
                         onSetInactive={() => setActive("")}
-                        activeClass="bg-secondary-lighten border-b-secondary text-secondary-dark"
+                        activeClass="text-secondary"
                     >
                         Home
                     </LinkRS>
@@ -51,7 +51,7 @@ export default function Navbar() {
                         duration={1000}
                         activeClass=" bg-secondary-lighten border-b-secondary text-secondary-dark"
                         offset={-120}
-                        className={` cursor-pointer py-[15px] duration-300 transition px-2.5 border-b-[2px] hover:bg-secondary-lighten hover:border-b-secondary hover:text-secondary-dark ${
+                        className={` cursor-pointer py-[15px] duration-300 transition px-2.5 hover:text-secondary ${
                             active == "service"
                                 ? " bg-secondary-lighten border-b-secondary text-secondary-dark"
                                 : "bg-transparent border-b-transparent text-yankess"
@@ -68,7 +68,7 @@ export default function Navbar() {
                         duration={1000}
                         activeClass=" bg-secondary-lighten border-b-secondary text-secondary-dark"
                         offset={-120}
-                        className={` cursor-pointer py-[15px] duration-300 transition px-2.5 border-b-[2px] hover:bg-secondary-lighten hover:border-b-secondary hover:text-secondary-dark ${
+                        className={` cursor-pointer py-[15px] duration-300 transition px-2.5 hover:text-secondary ${
                             active == "how"
                                 ? " bg-secondary-lighten border-b-secondary text-secondary-dark"
                                 : "bg-transparent border-b-transparent text-yankess"
@@ -84,7 +84,7 @@ export default function Navbar() {
                         smooth="easeInOutQuart"
                         duration={1000}
                         offset={-120}
-                        className=" cursor-pointer bg-secondary-light text-yankess px-5 py-2.5 flex rounded-full items-center gap-x-4"
+                        className=" cursor-pointer hover:bg-secondary transition duration-200 bg-secondary-light text-yankess px-5 py-2.5 flex rounded-full items-center gap-x-4"
                         onSetActive={() => setActive("contact")}
                         onSetInactive={() => setActive("")}
                     >
@@ -94,7 +94,7 @@ export default function Navbar() {
                             width={40}
                             alt="wa"
                         />
-                        Contact Heru Inspector
+                        Contact Tops Inspector
                     </LinkRS>
                 </nav>
                 <Menu

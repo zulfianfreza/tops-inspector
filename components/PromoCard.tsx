@@ -5,13 +5,13 @@ import React from "react";
 
 export default function PromoCard({ data }: { data: Promo }) {
     return (
-        <div className=" border shadow group hover:shadow-md transition hover:border hover:border-secondary/50 hover:shadow-secondary-light duration-300 rounded-[20px] overflow-hidden">
+        <div className=" border shadow group hover:shadow-xl transition hover:border duration-300 rounded-[20px] overflow-hidden">
             <div className=" bg-primary w-full py-5 text-center">
-                <h1 className=" uppercase text-white font-bold text-[20px] lg:text-[36px]">
+                <h1 className=" uppercase text-white font-bold text-[20px] lg:text-[30px]">
                     {data.title}
                 </h1>
             </div>
-            <div className=" h-[367px] w-full relative">
+            <div className=" h-[248px] lg:h-[367px] w-full relative">
                 <Image
                     src={data.thumbnail}
                     fill={true}
@@ -24,7 +24,7 @@ export default function PromoCard({ data }: { data: Promo }) {
                     {data.description}
                 </p>
                 <p className=" font-bold text-[24px] mt-[30px] lg:text-[36px] text-danger line-through">
-                    RP {numberFormat(data.price)}
+                    Rp {numberFormat(data.price)}
                 </p>
                 <p className=" font-bold text-yankess text-[36px] lg:text-[48px]">
                     Rp {numberFormat(data.price_deal)}

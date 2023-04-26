@@ -30,7 +30,7 @@ export default function Contact() {
                     <div className="flex items-center gap-x-10 z-10 flex-col lg:flex-row gap-y-5">
                         <Link
                             href=""
-                            className=" bg-white px-5 py-2.5 w-full lg:w-auto text-yankess flex rounded-full items-center gap-x-4 float-left text-[20px] lg:text-[24px]"
+                            className=" bg-white px-5 py-2.5 w-full hover:bg-primary-light transition duration-200 hover:text-primary lg:w-auto text-yankess flex rounded-full items-center gap-x-4 float-left text-[16px] lg:text-[20px]"
                         >
                             <Image
                                 src="/wa.png"
@@ -42,7 +42,7 @@ export default function Contact() {
                         </Link>
                         <Link
                             href=""
-                            className=" bg-white px-5 py-2.5 w-full lg:w-auto text-yankess flex rounded-full items-center gap-x-4 float-left text-[20px] lg:text-[24px]"
+                            className=" bg-white px-5 py-2.5 w-full hover:bg-primary-light transition duration-200 hover:text-primary lg:w-auto text-yankess flex rounded-full items-center gap-x-4 float-left text-[16px] lg:text-[20px]"
                         >
                             <Image
                                 src="/fb.png"
@@ -54,7 +54,7 @@ export default function Contact() {
                         </Link>
                         <Link
                             href=""
-                            className=" bg-white px-5 py-2.5 w-full lg:w-auto text-yankess flex rounded-full items-center gap-x-4 float-left text-[20px] lg:text-[24px]"
+                            className=" bg-white px-5 py-2.5 w-full hover:bg-primary-light transition duration-200 hover:text-primary lg:w-auto text-yankess flex rounded-full items-center gap-x-4 float-left text-[16px] lg:text-[20px]"
                         >
                             <Image
                                 src="/instagram.png"

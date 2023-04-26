@@ -29,10 +29,10 @@ export default function Service() {
             <div className="lg:mt-[60px] mt-[30px] w-full overflow-hidden">
                 <div className=" mx-5 lg:mx-10 xl:mx-[100px]">
                     <div className=" w-full p-5 bg-secondary-light border-l-[3px] space-y-5 border-l-secondary">
-                        <h1 className=" text-[36px] lg:text-[64px] font-bold leading-none text-yankess">
+                        <h1 className=" text-[36px] lg:text-[54px] font-bold leading-none text-yankess">
                             Our Service
                         </h1>
-                        <p className=" text-[12px] lg:text-[24px] text-yankess">
+                        <p className=" text-[12px] lg:text-[20px] text-yankess">
                             Heru Inspector memberikan services yang terbaik !
                         </p>
                     </div>
@@ -64,7 +64,7 @@ export default function Service() {
                         }
                     >
                         <div className="rounded-lg overflow-hidden">
-                            <div className="p-5 text-center uppercase text-[30px] font-bold bg-secondary">
+                            <div className="p-5 text-center uppercase text-[24px] font-bold bg-secondary">
                                 <p>Surat Surat</p>
                             </div>
                             <div className="p-5 bg-yankess flex flex-col items-center">
@@ -126,7 +126,7 @@ export default function Service() {
                             </div>
                         </div>
                         <div className="flex-1 rounded-lg overflow-hidden">
-                            <div className="py-5 text-center uppercase text-[30px] font-bold bg-secondary">
+                            <div className="py-5 text-center uppercase text-[24px] font-bold bg-secondary">
                                 <p>Mesin Transmisi</p>
                             </div>
                             <div className="p-5 bg-yankess flex flex-col items-center">
@@ -188,7 +188,7 @@ export default function Service() {
                             </div>
                         </div>
                         <div className="flex-1 rounded-lg overflow-hidden">
-                            <div className="py-5 text-center uppercase text-[30px] font-bold bg-secondary">
+                            <div className="py-5 text-center uppercase text-[24px] font-bold bg-secondary">
                                 <p>Interior</p>
                             </div>
                             <div className="p-5 bg-yankess flex flex-col items-center">
@@ -250,7 +250,7 @@ export default function Service() {
                             </div>
                         </div>
                         <div className="flex-1 rounded-lg overflow-hidden">
-                            <div className="py-5 text-center uppercase text-[30px] font-bold bg-secondary">
+                            <div className="py-5 text-center uppercase text-[24px] font-bold bg-secondary">
                                 <p>Eksterior</p>
                             </div>
                             <div className="p-5 bg-yankess flex flex-col items-center">

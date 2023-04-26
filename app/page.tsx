@@ -11,10 +11,10 @@ import type { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "Heru Inspector",
+    title: "Tops Inspector",
     icons: "/logo-sqaure.png",
     description:
-        "Heru Inspector adalah layanan profesional untuk memeriksa / inpeksi kondisi Mobil Bekas sebelum dibeli atau dijual oleh teknisi yang terlatih, Heru Inspector akan memberikan laporan rinci tentang kondisi kendaraan.",
+        "Pemeriksaan Mobil Profesional - Inspector Mobil menyediakan layanan inspeksi mobil yang komprehensif oleh tim ahli yang berpengalaman. Dapatkan laporan pemeriksaan rinci untuk membantu Anda membuat keputusan yang cerdas dalam membeli atau menjual mobil bekas.",
 };
 
 export default function Home() {

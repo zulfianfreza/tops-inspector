@@ -30,7 +30,7 @@ module.exports = {
                 "dark-silver": "#6D6D6D",
             },
             fontFamily: {
-                sans: ["Plus Jakarta Sans", ...fontFamily.sans],
+                sans: ["Poppins", ...fontFamily.sans],
             },
         },
     },

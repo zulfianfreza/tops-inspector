@@ -27,15 +27,15 @@ export default function Promo() {
     return (
         <section id="why">
             <div className=" px-5 lg:px-10 mt-[30px] text-center lg:mt-[60px] bg-primary py-5 text-white">
-                <h1 className=" text-[28px] lg:text-[64px]">
+                <h1 className=" text-[28px] lg:text-[48px] font-bold">
                     PENAWARAN TERBAIK
                 </h1>
-                <p className=" text-[14px] lg:text-[24px]">
+                <p className=" text-[14px] lg:text-[20px]">
                     Heru Inspector memberikan penawaran layanan inspeksi mobil
                     yang terbaik !
                 </p>
             </div>
-            <div className=" w-full py-3 lg:py-4 text-white text-[16px] lg:text-[24px] bg-danger flex items-center">
+            <div className=" w-full py-2.5 text-white text-[16px] lg:text-[20px] bg-danger flex items-center">
                 <marquee>
                     Dapatkan promo deal hemat ! Dapatkan promo deal hemat !
                     Dapatkan promo deal hemat ! Dapatkan promo deal hemat !

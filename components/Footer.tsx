@@ -49,7 +49,7 @@ export default function Footer() {
                                     Heru Inspector.
                                 </span>
                             </h1>
-                            <p className=" text-[16px] lg:text-[24px] text-[#ADADAD] italic">
+                            <p className=" text-[16px] lg:text-[24px] text-white/80 italic">
                                 Heru Inspector akan memberikan experience yang
                                 terbaik dalam menjalankan pekerjaan.
                             </p>
@@ -57,7 +57,7 @@ export default function Footer() {
                         <div className=" p-[30px] bg-[#344364] w-full lg:w-[516px] rounded-[20px] z-30">
                             <div className=" flex justify-between items-center">
                                 <p className=" text-white text-[20px]">
-                                    Whatsapp kami sekarang
+                                    WhatsApp kami sekarang
                                 </p>
                                 <Image
                                     src="/wa.png"
