@@ -1,0 +1,10 @@
+{
+    "rules": {
+        "jsx-a11y/no-distracting-elements": [
+            2,
+            {
+                "elements": ["marquee", "blink"]
+            }
+        ]
+    }
+}
