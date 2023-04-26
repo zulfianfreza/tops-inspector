@@ -31,7 +31,7 @@ export default function Promo() {
                     PENAWARAN TERBAIK
                 </h1>
                 <p className=" text-[14px] lg:text-[20px]">
-                    Heru Inspector memberikan penawaran layanan inspeksi mobil
+                    Tops Inspector memberikan penawaran layanan inspeksi mobil
                     yang terbaik !
                 </p>
             </div>
@@ -53,7 +53,7 @@ export default function Promo() {
                     keyBoardControl={true}
                     customTransition="transform 300ms ease-in-out"
                     transitionDuration={500}
-                    containerClass=" mx-2.5 lg:mx-[30px] xl:mx-[80px] mt-[30px]"
+                    containerClass=" mx-2.5 lg:mx-[30px] xl:mx-[80px] mt-[30px] flex items-stretch"
                     removeArrowOnDeviceType={["desktop"]}
                     itemClass="p-2.5 lg:p-[15px]"
                     sliderClass=""

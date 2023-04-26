@@ -12,7 +12,7 @@ export default function Contact() {
                     <Image
                         src="/logo2.png"
                         height="272"
-                        width="307"
+                        width="552"
                         alt=""
                         className=" absolute top-1/2 -translate-y-1/2 hidden lg:block left-0"
                     />
@@ -25,7 +25,7 @@ export default function Contact() {
                     />
                     <h1 className="text-[36px]  lg:text-[56px] text-white">
                         Contact <br />
-                        <span className=" font-bold">Heru Inspector</span>
+                        <span className=" font-bold">Tops Inspector</span>
                     </h1>
                     <div className="flex items-center gap-x-10 z-10 flex-col lg:flex-row gap-y-5">
                         <Link

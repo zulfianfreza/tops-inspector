@@ -14,7 +14,7 @@ export default function Hero() {
                     <div>
                         <p className=" text-[#6D6D6D] text-12px lg:text-[20px] font-light">
                             <span className=" italic font-medium text-primary">
-                                Heru Inspector
+                                Tops Inspector
                             </span>{" "}
                             adalah{" "}
                             <span className=" text-primary font-medium">
@@ -31,7 +31,7 @@ export default function Hero() {
                             sebelum dibeli atau dijual. oleh teknisi yang
                             terlatih,{" "}
                             <span className=" text-primary font-medium">
-                                Heru Inspector akan memberikan laporan rinci
+                                Tops Inspector akan memberikan laporan rinci
                                 tentang kondisi kendaraan.
                             </span>
                         </p>

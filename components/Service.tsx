@@ -33,7 +33,7 @@ export default function Service() {
                             Our Service
                         </h1>
                         <p className=" text-[12px] lg:text-[20px] text-yankess">
-                            Heru Inspector memberikan services yang terbaik !
+                            Tops Inspector memberikan services yang terbaik !
                         </p>
                     </div>
                 </div>

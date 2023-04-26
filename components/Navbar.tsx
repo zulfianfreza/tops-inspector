@@ -76,7 +76,7 @@ export default function Navbar() {
                         onSetActive={() => setActive("how")}
                         onSetInactive={() => setActive("")}
                     >
-                        How Heru Work
+                        How Works
                     </LinkRS>
                     <LinkRS
                         to="contact"
@@ -184,7 +184,7 @@ export default function Navbar() {
                                             onSetActive={() => setActive("how")}
                                             onSetInactive={() => setActive("")}
                                         >
-                                            How Heru Work
+                                            How Works
                                         </LinkRS>
                                     </>
                                 </Menu.Item>
@@ -206,7 +206,7 @@ export default function Navbar() {
                                                 width={40}
                                                 alt="wa"
                                             />
-                                            Contact Heru Inspector
+                                            Contact Inspectors
                                         </LinkRS>
                                     </>
                                 </Menu.Item>

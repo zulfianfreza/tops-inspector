@@ -62,13 +62,13 @@ export default function How() {
                     >
                         Hubungi WhatsApp untuk mendapatkan informasi seputar
                         inpeksi mobil ataupun jasa lainnya dari{" "}
-                        <span className=" font-bold">Heru Inspector</span>
+                        <span className=" font-bold">Tops Inspector</span>
                     </AccordionItem>
 
                     <AccordionItem header="Booking & Konfirmasi">
                         Booking jadwal dan dapatkan dari{" "}
                         <span className=" font-bold">
-                            Heru Inspector Hari kerja Flexible
+                            Tops Inspector Hari kerja Flexible
                         </span>{" "}
                         tergantung dengan{" "}
                         <span className=" font-bold">
@@ -80,7 +80,7 @@ export default function How() {
                         Dapatkan layanan terbaik dan{" "}
                         <span className=" font-bold">experience</span> terbaik
                         dari pelayanan{" "}
-                        <span className=" font-bold">Heru Inspector</span> !
+                        <span className=" font-bold">Tops Inspector</span> !
                         dengan
                         <span>
                             pengalaman di dunia otomotif -/+ 20 Tahun

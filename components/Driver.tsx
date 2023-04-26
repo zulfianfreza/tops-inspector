@@ -18,7 +18,7 @@ export default function Driver() {
                 <div className=" flex-1 bg-yankess p-5 lg:px-[30px] lg:py-[50px] space-y-[15px]">
                     <h1 className=" text-white text-[36px] lg:text-[56px]">
                         Butuh Jasa Driver ?{" "}
-                        <span className=" font-bold">Heru Driver</span> siap
+                        <span className=" font-bold">Tops Driver</span> siap
                         mengantar anda kemana pun !
                     </h1>
                     <div className=" bg-danger p-2.5 text-white text-[16px] lg:text-[20px]">
@@ -27,7 +27,7 @@ export default function Driver() {
                     <button className=" gap-x-[15px] w-full py-[10px] flex items-center px-[20px] bg-white rounded-full">
                         <Image src="/wa.png" height={40} width={40} alt="wa" />
                         <h1 className=" text-[16px] font-medium lg:text-[36px]">
-                            Hubungi Heru Driver
+                            Hubungi Tops Driver
                         </h1>
                     </button>
                 </div>

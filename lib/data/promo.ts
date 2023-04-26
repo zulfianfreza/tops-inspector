@@ -5,7 +5,7 @@ export const PromoList: Promo[] = [
         title: "premium",
         thumbnail: "/car_premium.png",
         description:
-            "City car, small sedan (e.g. Honda Jazz, Daihatsu Xenia, Toyota Avanza, Suzuki Ertiga)",
+            "City car, small sedan (e.g. Honda Jazz, Daihatsu Xenia, Toyota Avanza)",
         price: 388999,
         price_deal: 200000,
     },

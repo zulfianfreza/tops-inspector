@@ -38,19 +38,19 @@ export default function Footer() {
                     className=" absolute bottom-0 lg:right-0 right-1/2 translate-x-1/2 lg:translate-x-0 z-[1]"
                 />
                 <div className=" z-30">
-                    <div className="flex gap-x-[144px] flex-col lg:flex-row gap-y-[30px]">
+                    <div className="flex gap-x-10 flex-col lg:flex-row gap-y-[30px]">
                         <div className=" flex-1">
                             <h1 className=" text-[24px] lg:text-[40px] text-white">
                                 <span className=" font-bold">
                                     Percayakan cek kondisi mobil
                                 </span>{" "}
-                                kepada
+                                kepada{" "}
                                 <span className=" font-bold">
-                                    Heru Inspector.
+                                    Tops Inspector.
                                 </span>
                             </h1>
-                            <p className=" text-[16px] lg:text-[24px] text-white/80 italic">
-                                Heru Inspector akan memberikan experience yang
+                            <p className=" text-[16px] lg:text-[20px] text-white/80 italic">
+                                Tops Inspector akan memberikan experience yang
                                 terbaik dalam menjalankan pekerjaan.
                             </p>
                         </div>
@@ -61,8 +61,8 @@ export default function Footer() {
                                 </p>
                                 <Image
                                     src="/wa.png"
-                                    height={24}
-                                    width={24}
+                                    height={40}
+                                    width={40}
                                     alt=""
                                 />
                             </div>
@@ -72,7 +72,7 @@ export default function Footer() {
                                         name=""
                                         id=""
                                         className=" h-[103px] rounded w-full p-2.5 text-[#6D6D6D]"
-                                        defaultValue="Hai Heru Inspector, saya butuh jasa
+                                        defaultValue="Hai Tops Inspector, saya butuh jasa
                                         anda, bisa kah untuk membantu melakukan
                                         inpeksi mobil sekarang?"
                                     ></textarea>
@@ -88,14 +88,11 @@ export default function Footer() {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-[100px] items-center gap-y-[30px]">
                     <div className=" flex flex-col items-center gap-y-[30px]">
                         <Image
-                            src={"/logo_vertikal.png"}
-                            height={178}
+                            src={"/tops.png"}
+                            height={188}
                             width={150}
                             alt="logo"
                         />
-                        <p className=" italic text-[20px] text-[#989EA8]">
-                            Copyright © 2023. All Rights Reserved.
-                        </p>
                     </div>
                     <div className="mt-[30px]">
                         <div className="flex flex-col lg:flex-row justify-between gap-y-2.5">
@@ -169,11 +166,16 @@ export default function Footer() {
                         <h1 className=" text-white text-[36px] font-bold">
                             Address
                         </h1>
-                        <p className=" text-[#e5e5e5] text-[20px]">
-                            Heru Inspector Padalarang, Kab. Bandung Barat Jawa
+                        <p className=" text-[#e5e5e5] text-[16px]">
+                            Tops Inspector Padalarang, Kab. Bandung Barat Jawa
                             Barat, 40553
                         </p>
                     </div>
+                </div>
+                <div className=" w-full flex justify-center items-center mt-8">
+                    <p className=" text-[16px] text-[#989EA8]">
+                        Copyright © 2023. All Rights Reserved.
+                    </p>
                 </div>
             </div>
         </section>
