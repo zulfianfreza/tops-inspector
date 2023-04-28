@@ -23,10 +23,10 @@ export default function PromoCard({ data }: { data: Promo }) {
                 <p className=" text-dark-silver text-[16px]">
                     {data.description}
                 </p>
-                <p className=" font-bold text-[24px] mt-[30px] lg:text-[36px] text-danger line-through">
+                <p className=" font-semibold text-[24px] mt-[30px] lg:text-[36px] text-danger line-through">
                     Rp {numberFormat(data.price)}
                 </p>
-                <p className=" font-bold text-yankess text-[36px] lg:text-[48px]">
+                <p className=" font-semibold text-yankess text-[36px] lg:text-[48px]">
                     Rp {numberFormat(data.price_deal)}
                 </p>
                 <button className=" mt-[30px] w-full rounded-full p-5 bg-secondary-light text-[20px] lg:text-[24px] font-bold hover:bg-secondary transition duration-300">
