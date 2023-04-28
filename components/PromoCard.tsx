@@ -11,7 +11,7 @@ export default function PromoCard({ data }: { data: Promo }) {
                     {data.title}
                 </h1>
             </div>
-            <div className=" h-[248px] lg:h-[367px] w-full relative">
+            <div className=" aspect-[16/10] lg:aspect-square w-full relative border-b shadow-md">
                 <Image
                     src={data.thumbnail}
                     fill={true}

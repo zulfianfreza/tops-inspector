@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import {
     FaFacebookF,
     FaInstagram,
@@ -13,9 +13,12 @@ import {
 import { Link as LinkRS } from "react-scroll";
 
 export default function Footer() {
+    const [message, setMessage] = useState(
+        "Hai Tops Inspector, saya butuh jasa anda, bisa kah untuk membantu melakukan inpeksi mobil sekarang?"
+    );
     return (
         <section>
-            <div className=" mt-[30px] lg:mt-[60px] p-5 lg:px-10 xl:px-[100px] lg:py-10 bg-primary relative">
+            <div className=" mt-5 lg:mt-[40px] p-5 lg:px-10 xl:px-[100px] lg:py-10 bg-primary relative">
                 <Image
                     src="/half1.png"
                     height={183}
@@ -67,18 +70,26 @@ export default function Footer() {
                                 />
                             </div>
                             <div className="mt-4">
-                                <form action="" className=" space-y-2.5">
+                                <form
+                                    action=""
+                                    className=" space-y-2.5 flex flex-col"
+                                >
                                     <textarea
                                         name=""
                                         id=""
                                         className=" h-[103px] rounded w-full p-2.5 text-[#6D6D6D]"
-                                        defaultValue="Hai Tops Inspector, saya butuh jasa
-                                        anda, bisa kah untuk membantu melakukan
-                                        inpeksi mobil sekarang?"
+                                        value={message}
+                                        onChange={(e) =>
+                                            setMessage(e.target.value)
+                                        }
                                     ></textarea>
-                                    <button className=" w-full rounded bg-secondary py-2.5 text-white   ">
+                                    <Link
+                                        href={`https://wa.me/628997025746?text=${message}`}
+                                        target="_blank"
+                                        className=" w-full rounded bg-secondary py-2.5 text-white flex justify-center items-center"
+                                    >
                                         Kirim
-                                    </button>
+                                    </Link>
                                 </form>
                             </div>
                         </div>

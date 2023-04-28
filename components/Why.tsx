@@ -11,7 +11,7 @@ export default function Why() {
                     </p>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-2.5 lg:gap-10 mt-2.5 lg:mt-10">
-                    <div className=" bg-secondary flex rounded-[10px] overflow-hidden">
+                    <div className=" bg-secondary-light flex rounded-[10px] overflow-hidden group hover:bg-secondary transition">
                         <div className="w-[100px] lg:w-[136px] h-[100%] min-h-[120px] relative">
                             <Image
                                 src="/deals.png"
@@ -20,7 +20,7 @@ export default function Why() {
                                 className=" object-cover"
                             />
                         </div>
-                        <div className="flex-1 p-5 border-l-[3px] border-l-secondary-light flex flex-col justify-center">
+                        <div className="flex-1 p-5 border-l-[3px] border-l-secondary flex flex-col justify-center group-hover:border-l-secondary-light transition">
                             <h1 className=" text-[20px] lg:text-[36px] leading-tight font-bold">
                                 Layak Dibeli
                             </h1>
@@ -30,7 +30,7 @@ export default function Why() {
                             </p>
                         </div>
                     </div>
-                    <div className=" bg-secondary-light flex rounded-[10px] overflow-hidden">
+                    <div className=" bg-secondary-light flex rounded-[10px] overflow-hidden group hover:bg-secondary transition">
                         <div className="w-[100px] lg:w-[136px] h-[100%] min-h-[120px] relative">
                             <Image
                                 src="/scam.png"
@@ -39,7 +39,7 @@ export default function Why() {
                                 className=" object-cover"
                             />
                         </div>
-                        <div className="flex-1 p-5 border-l-[3px] border-l-secondary flex flex-col justify-center">
+                        <div className="flex-1 p-5 border-l-[3px] border-l-secondary flex flex-col justify-center group-hover:border-l-secondary-light transition">
                             <h1 className=" text-[20px] lg:text-[36px] leading-tight font-bold">
                                 Cegah Scam
                             </h1>
@@ -49,7 +49,7 @@ export default function Why() {
                             </p>
                         </div>
                     </div>
-                    <div className=" bg-secondary-light flex rounded-[10px] overflow-hidden">
+                    <div className=" bg-secondary-light flex rounded-[10px] overflow-hidden group hover:bg-secondary transition">
                         <div className="w-[100px] lg:w-[136px] h-[100%] min-h-[120px] relative">
                             <Image
                                 src="/good.png"
@@ -58,7 +58,7 @@ export default function Why() {
                                 className=" object-cover"
                             />
                         </div>
-                        <div className="flex-1 p-5 border-l-[3px] border-l-secondary flex flex-col justify-center">
+                        <div className="flex-1 p-5 border-l-[3px] border-l-secondary flex flex-col justify-center group-hover:border-l-secondary-light transition">
                             <h1 className=" text-[20px] lg:text-[36px] leading-tight font-bold">
                                 Cek Kondisi
                             </h1>
@@ -68,7 +68,7 @@ export default function Why() {
                             </p>
                         </div>
                     </div>
-                    <div className=" bg-secondary-light flex rounded-[10px] overflow-hidden">
+                    <div className=" bg-secondary-light flex rounded-[10px] overflow-hidden group hover:bg-secondary transition">
                         <div className="w-[100px] lg:w-[136px] h-[100%] min-h-[120px] relative">
                             <Image
                                 src="/recommended.png"
@@ -77,7 +77,7 @@ export default function Why() {
                                 className=" object-cover"
                             />
                         </div>
-                        <div className=" flex-1 p-5 border-l-[3px] border-l-secondary flex flex-col justify-center">
+                        <div className=" flex-1 p-5 border-l-[3px] border-l-secondary flex flex-col justify-center group-hover:border-l-secondary-light transition">
                             <h1 className=" text-[20px] overflow-ellipsis lg:text-[36px] leading-tight font-bold">
                                 Rekomendasi
                             </h1>

@@ -7,8 +7,8 @@ export default function Hero() {
         <section>
             <div className=" mx-5 lg:mx-10 xl:mx-[100px] flex flex-col lg:flex-row gap-x-[70px] my-[30px] gap-y-[30px] lg:gap-y-0 ">
                 <div className="flex-1 space-y-2">
-                    <h1 className=" text-primary font-bold text-[40px] lg:text-[54px] xl:text-[72px] leading-snug">
-                        Jasa Inspeksi <br />
+                    <h1 className=" text-primary font-bold text-[48px] lg:text-[54px] xl:text-[72px] leading-snug">
+                        Jasa Inspeksi <br className="hidden lg:block" />
                         Mobil Bekas !
                     </h1>
                     <div>

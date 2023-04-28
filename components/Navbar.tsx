@@ -1,4 +1,6 @@
 "use client";
+import { useScrollPosition } from "@/hooks/useScrollPosition";
+import { cn } from "@/utils/cn";
 import { Menu, Transition } from "@headlessui/react";
 import Image from "next/image";
 import Link from "next/link";
@@ -7,6 +9,7 @@ import { Element, Link as LinkRS, Events, scrollSpy } from "react-scroll";
 
 export default function Navbar() {
     const [active, setActive] = useState<string>("");
+    const scrollPosition = useScrollPosition();
     return (
         <>
             <Element name="home">
@@ -18,7 +21,15 @@ export default function Navbar() {
                     </marquee>
                 </div>
             </Element>
-            <div className=" px-5 lg:px-[40px] flex justify-between items-center py-5 sticky top-0 z-50 bg-white/90 backdrop-blur">
+            <div
+                className={cn(
+                    " px-5 lg:px-10 xl:px-[100px] flex justify-between items-center py-5 sticky top-0 z-50 bg-white/90 backdrop-blur",
+                    {
+                        " border-slate-200 dark:border-slate-800 shadow-sm":
+                            scrollPosition > 44,
+                    }
+                )}
+            >
                 <div className="w-[172px] lg:w-[225px] h-16 lg:h-20 relative">
                     <Image
                         src="/logo.png"
@@ -49,12 +60,12 @@ export default function Navbar() {
                         spy={true}
                         smooth="easeInOutQuart"
                         duration={1000}
-                        activeClass=" bg-secondary-lighten border-b-secondary text-secondary-dark"
+                        activeClass=" text-secondary"
                         offset={-120}
                         className={` cursor-pointer py-[15px] duration-300 transition px-2.5 hover:text-secondary ${
                             active == "service"
-                                ? " bg-secondary-lighten border-b-secondary text-secondary-dark"
-                                : "bg-transparent border-b-transparent text-yankess"
+                                ? " text-secondary"
+                                : "bg-transparent text-yankess"
                         }`}
                         onSetActive={() => setActive("service")}
                         onSetInactive={() => setActive("")}
@@ -66,12 +77,12 @@ export default function Navbar() {
                         spy={true}
                         smooth="easeInOutQuart"
                         duration={1000}
-                        activeClass=" bg-secondary-lighten border-b-secondary text-secondary-dark"
+                        activeClass=" text-secondary"
                         offset={-120}
                         className={` cursor-pointer py-[15px] duration-300 transition px-2.5 hover:text-secondary ${
                             active == "how"
-                                ? " bg-secondary-lighten border-b-secondary text-secondary-dark"
-                                : "bg-transparent border-b-transparent text-yankess"
+                                ? " text-secondary"
+                                : "bg-transparenttext-yankess"
                         }`}
                         onSetActive={() => setActive("how")}
                         onSetInactive={() => setActive("")}
@@ -84,7 +95,12 @@ export default function Navbar() {
                         smooth="easeInOutQuart"
                         duration={1000}
                         offset={-120}
-                        className=" cursor-pointer hover:bg-secondary transition duration-200 bg-secondary-light text-yankess px-5 py-2.5 flex rounded-full items-center gap-x-4"
+                        className={` cursor-pointer hover:bg-secondary transition duration-200 text-yankess px-5 py-2.5 flex rounded-full items-center gap-x-4 ${
+                            active == "contact"
+                                ? "bg-secondary"
+                                : "bg-secondary-light"
+                        }`}
+                        activeClass=" bg-secondary"
                         onSetActive={() => setActive("contact")}
                         onSetInactive={() => setActive("")}
                     >
@@ -198,7 +214,7 @@ export default function Navbar() {
                                             duration={1000}
                                             activeClass=" bg-secondary-lighten"
                                             offset={-105}
-                                            className=" bg-secondary-light w-full text-yankess px-5 py-2.5 flex rounded-full items-center gap-x-4"
+                                            className=" bg-secondary-light cursor-pointer transition-all duration-300 hover:bg-secondary w-full text-yankess px-5 py-2.5 flex rounded-full items-center gap-x-4"
                                         >
                                             <Image
                                                 src="/contact.png"

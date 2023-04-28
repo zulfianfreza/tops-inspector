@@ -50,6 +50,15 @@ export default function How() {
                         alt="how"
                         className=" object-cover"
                     />
+                    <div className="absolute bg-black/20 m-4 bottom-0 rounded-xl backdrop-blur-sm p-4">
+                        <h1 className=" text-[54px] text-white leading-normal font-bold">
+                            How Tops Inspector Work?
+                        </h1>
+                        <p className=" text-[20px] text-white">
+                            Tops Inspector akan memberikan experience yang
+                            terbaik dalam menjalankan pekerjaan.
+                        </p>
+                    </div>
                 </div>
                 <Accordion
                     transition
