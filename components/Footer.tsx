@@ -84,7 +84,7 @@ export default function Footer() {
                                         }
                                     ></textarea>
                                     <Link
-                                        href={`https://wa.me/628997025746?text=${message}`}
+                                        href={`https://wa.me/6289604401595?text=${message}`}
                                         target="_blank"
                                         className=" w-full rounded bg-secondary py-2.5 text-white flex justify-center items-center"
                                     >

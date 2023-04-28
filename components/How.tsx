@@ -51,10 +51,10 @@ export default function How() {
                         className=" object-cover"
                     />
                     <div className="absolute bg-black/20 m-4 bottom-0 rounded-xl backdrop-blur-sm p-4">
-                        <h1 className=" text-[54px] text-white leading-normal font-bold">
+                        <h1 className=" text-[44px] lg:text-[54px] text-white leading-normal font-bold">
                             How Tops Inspector Work?
                         </h1>
-                        <p className=" text-[20px] text-white">
+                        <p className=" text-[16px] lg:text-[20px] text-white">
                             Tops Inspector akan memberikan experience yang
                             terbaik dalam menjalankan pekerjaan.
                         </p>
