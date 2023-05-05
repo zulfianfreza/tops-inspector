@@ -1,6 +1,7 @@
 import { Promo } from "@/lib/types";
 import { numberFormat } from "@/utils/number-format";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function PromoCard({ data }: { data: Promo }) {
@@ -29,9 +30,13 @@ export default function PromoCard({ data }: { data: Promo }) {
                 <p className=" font-semibold text-yankess text-[36px] lg:text-[48px]">
                     Rp {numberFormat(data.price_deal)}
                 </p>
-                <button className=" mt-[30px] w-full rounded-full p-5 bg-secondary-light text-[20px] lg:text-[24px] font-bold hover:bg-secondary transition duration-300">
+                <Link
+                    href="https://wa.me/6289604401595"
+                    target="_blank"
+                    className="flex justify-center items-center mt-[30px] w-full rounded-full p-5 bg-secondary-light text-[20px] lg:text-[24px] font-bold hover:bg-secondary transition duration-300"
+                >
                     Booking Sekarang !
-                </button>
+                </Link>
             </div>
         </div>
     );

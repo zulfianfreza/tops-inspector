@@ -29,7 +29,8 @@ export default function Contact() {
                     </h1>
                     <div className="flex items-center gap-x-10 z-10 flex-col lg:flex-row gap-y-5">
                         <Link
-                            href=""
+                            href="https://wa.me/6289604401595"
+                            target="_blank"
                             className=" bg-white px-5 py-2.5 w-full hover:bg-primary-light transition duration-200 hover:text-primary lg:w-auto text-yankess flex rounded-full items-center gap-x-4 float-left text-[16px] lg:text-[20px]"
                         >
                             <Image
@@ -41,7 +42,7 @@ export default function Contact() {
                             WhatsApp
                         </Link>
                         <Link
-                            href=""
+                            href="/"
                             className=" bg-white px-5 py-2.5 w-full hover:bg-primary-light transition duration-200 hover:text-primary lg:w-auto text-yankess flex rounded-full items-center gap-x-4 float-left text-[16px] lg:text-[20px]"
                         >
                             <Image
@@ -53,7 +54,8 @@ export default function Contact() {
                             Facebook
                         </Link>
                         <Link
-                            href=""
+                            href="https://www.instagram.com/topsinspector/"
+                            target="_blank"
                             className=" bg-white px-5 py-2.5 w-full hover:bg-primary-light transition duration-200 hover:text-primary lg:w-auto text-yankess flex rounded-full items-center gap-x-4 float-left text-[16px] lg:text-[20px]"
                         >
                             <Image

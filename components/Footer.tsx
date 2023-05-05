@@ -98,12 +98,14 @@ export default function Footer() {
                 <hr className=" border-[#203a68] my-[30px]" />
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-[100px] items-center gap-y-[30px]">
                     <div className=" flex flex-col items-center gap-y-[30px]">
-                        <Image
-                            src={"/tops.png"}
-                            height={188}
-                            width={150}
-                            alt="logo"
-                        />
+                        <Link href="/">
+                            <Image
+                                src={"/tops.png"}
+                                height={216}
+                                width={176}
+                                alt="logo"
+                            />
+                        </Link>
                     </div>
                     <div className="mt-[30px]">
                         <div className="flex flex-col lg:flex-row justify-between gap-y-2.5">
@@ -153,24 +155,40 @@ export default function Footer() {
                             </div>
                         </div>
                         <div className=" mt-[70px] flex gap-x-4 justify-center z-50">
-                            <button className=" bg-[#3B4662] p-2.5 rounded hover:bg-[#3b4662]/70 duration-300 transition">
+                            <Link
+                                href="/"
+                                className=" bg-[#3B4662] p-2.5 rounded hover:bg-[#3b4662]/70 duration-300 transition"
+                            >
                                 <FaFacebookF className=" h-4 w-4 text-white" />
-                            </button>
-                            <button className=" bg-[#3B4662] p-2.5 rounded hover:bg-[#3b4662]/70 duration-300 transition">
-                                <FaTwitter className=" h-4 w-4 text-white" />
-                            </button>
-                            <button className=" bg-[#3B4662] p-2.5 rounded hover:bg-[#3b4662]/70 duration-300 transition z-50">
+                            </Link>
+                            <Link
+                                href="https://www.instagram.com/topsinspector/"
+                                target="_blank"
+                                className=" bg-[#3B4662] p-2.5 rounded hover:bg-[#3b4662]/70 duration-300 transition z-50"
+                            >
                                 <FaInstagram className=" h-4 w-4 text-white" />
-                            </button>
-                            <button className=" bg-[#3B4662] p-2.5 rounded hover:bg-[#3b4662]/70 duration-300 transition z-50">
+                            </Link>
+                            <Link
+                                href="https://id.linkedin.com/in/herusopyantoro"
+                                target="_blank"
+                                className=" bg-[#3B4662] p-2.5 rounded hover:bg-[#3b4662]/70 duration-300 transition z-50"
+                            >
                                 <FaLinkedinIn className=" h-4 w-4 text-white" />
-                            </button>
-                            <button className=" bg-[#3B4662] p-2.5 rounded hover:bg-[#3b4662]/70 duration-300 transition">
+                            </Link>
+                            <Link
+                                href="https://www.youtube.com/channel/UCY1OvPAXX1WgJfWXKS5H5Qw"
+                                target="_blank"
+                                className=" bg-[#3B4662] p-2.5 rounded hover:bg-[#3b4662]/70 duration-300 transition"
+                            >
                                 <FaYoutube className=" h-4 w-4 text-white" />
-                            </button>
-                            <button className=" bg-[#3B4662] p-2.5 rounded hover:bg-[#3b4662]/70 duration-300 transition">
+                            </Link>
+                            <Link
+                                href="https://wa.me/6289604401595"
+                                target="_blank"
+                                className=" bg-[#3B4662] p-2.5 rounded hover:bg-[#3b4662]/70 duration-300 transition"
+                            >
                                 <FaWhatsapp className=" h-4 w-4 text-white" />
-                            </button>
+                            </Link>
                         </div>
                     </div>
                     <div className=" space-y-2.5">

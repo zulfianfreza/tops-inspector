@@ -17,13 +17,15 @@ export default function Navbar() {
                     <marquee>
                         inpeksi kendaraan berkualitas & berpengalaman ! inpeksi
                         kendaraan berkualitas & berpengalaman ! inpeksi
+                        kendaraan berkualitas & berpengalaman ! inpeksi
+                        kendaraan berkualitas & berpengalaman ! inpeksi
                         kendaraan berkualitas & berpengalaman !
                     </marquee>
                 </div>
             </Element>
             <div
                 className={cn(
-                    " px-5 lg:px-10 xl:px-[100px] flex justify-between items-center py-5 sticky top-0 z-50 bg-white/90 backdrop-blur",
+                    " px-5 lg:px-10 xl:px-[100px] flex justify-between items-center py-3 lg:py-5 sticky top-0 z-50 bg-white/90 backdrop-blur",
                     {
                         " border-slate-200 dark:border-slate-800 shadow-sm":
                             scrollPosition > 44,
@@ -95,7 +97,7 @@ export default function Navbar() {
                         smooth="easeInOutQuart"
                         duration={1000}
                         offset={-120}
-                        className={` cursor-pointer hover:bg-secondary transition duration-200 text-yankess px-5 py-2.5 flex rounded-full items-center gap-x-4 ${
+                        className={` cursor-pointer font-medium hover:bg-secondary transition duration-200 text-yankess px-5 py-2.5 flex rounded-full items-center gap-x-4 ${
                             active == "contact"
                                 ? "bg-secondary"
                                 : "bg-secondary-light"

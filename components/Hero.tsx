@@ -36,7 +36,8 @@ export default function Hero() {
                             </span>
                         </p>
                         <Link
-                            href=""
+                            href="https://wa.me/6289604401595"
+                            target="_blank"
                             className=" bg-secondary-light mt-8 px-5 py-2.5 w-full hover:bg-secondary duration-300 transition hover:shadow lg:w-auto text-yankess flex rounded-full items-center gap-x-4 float-left text-[20px] lg:text-[24px]"
                         >
                             <Image
