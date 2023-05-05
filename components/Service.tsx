@@ -5,8 +5,10 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { Element } from "react-scroll";
+import useWindowSize from "@/hooks/useWindowsSize";
 
 export default function Service() {
+    const windowSize = useWindowSize();
     const responsive = {
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
@@ -43,11 +45,11 @@ export default function Service() {
                         swipeable={false}
                         draggable={false}
                         infinite={true}
-                        autoPlay={false}
-                        autoPlaySpeed={1000}
+                        autoPlay={windowSize.width < 1024 ? true : false}
+                        autoPlaySpeed={5000}
                         keyBoardControl={true}
                         customTransition="transform 300ms ease-in-out"
-                        transitionDuration={500}
+                        transitionDuration={1000}
                         containerClass=" mx-2.5 lg:mx-[30px] xl:mx-[80px] mt-[30px]"
                         removeArrowOnDeviceType={["desktop"]}
                         itemClass="p-2.5 lg:p-2.5 xl:p-5"

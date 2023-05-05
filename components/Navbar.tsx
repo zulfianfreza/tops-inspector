@@ -3,9 +3,8 @@ import { useScrollPosition } from "@/hooks/useScrollPosition";
 import { cn } from "@/utils/cn";
 import { Menu, Transition } from "@headlessui/react";
 import Image from "next/image";
-import Link from "next/link";
-import React, { Fragment, useEffect, useState } from "react";
-import { Element, Link as LinkRS, Events, scrollSpy } from "react-scroll";
+import React, { Fragment, useState } from "react";
+import { Element, Link as LinkRS } from "react-scroll";
 
 export default function Navbar() {
     const [active, setActive] = useState<string>("");
@@ -224,7 +223,7 @@ export default function Navbar() {
                                                 width={40}
                                                 alt="wa"
                                             />
-                                            Contact Inspectors
+                                            Contact Tops Inspector
                                         </LinkRS>
                                     </>
                                 </Menu.Item>

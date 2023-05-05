@@ -1,3 +1,4 @@
+"use client";
 import { Promo } from "@/lib/types";
 import { numberFormat } from "@/utils/number-format";
 import Image from "next/image";

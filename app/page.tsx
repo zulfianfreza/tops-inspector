@@ -12,7 +12,8 @@ import React from "react";
 
 export const metadata: Metadata = {
     title: "Tops Inspector - Jasa Inspeksi Mobil",
-    icons: "/logo-sqaure.png",
+    openGraph: { images: ["/logo-square.png"] },
+    icons: "/logo-square.png",
     description:
         "Pemeriksaan Mobil Profesional - Inspector Mobil menyediakan layanan inspeksi mobil yang komprehensif oleh tim ahli yang berpengalaman. Dapatkan laporan pemeriksaan rinci untuk membantu Anda membuat keputusan yang cerdas dalam membeli atau menjual mobil bekas.",
 };
