@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 declare global {
     namespace JSX {
@@ -28,7 +29,10 @@ export default function RootLayout({
                     rel="stylesheet"
                 />
             </head>
-            <body className=" antialiased tracking-tight">{children}</body>
+            <body className=" antialiased tracking-tight">
+                {children}
+                <Analytics />
+            </body>
         </html>
     );
 }
