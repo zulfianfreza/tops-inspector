@@ -3,6 +3,7 @@ import Driver from "@/components/Driver";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import How from "@/components/How";
+import Map from "@/components/Map";
 import Navbar from "@/components/Navbar";
 import Promo from "@/components/Promo";
 import Service from "@/components/Service";
@@ -37,6 +38,7 @@ export default function Home() {
             <Promo />
             {/* <Driver /> */}
             <Contact />
+            <Map />
             <Footer />
         </div>
     );

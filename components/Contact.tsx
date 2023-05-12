@@ -7,8 +7,8 @@ import { Element } from "react-scroll";
 export default function Contact() {
     return (
         <Element name="contact">
-            <div className="mx-5 lg:mx-[40px] mt-[30px] lg:mt-[60px]">
-                <div className="p-5 lg:py-[30px] lg:px-[40px]  bg-primary relative flex flex-col lg:flex-row gap-x-10 justify-between overflow-hidden gap-y-5">
+            <div className=" mt-[30px] lg:mt-10">
+                <div className="p-5 py-10 lg:py-10 lg:px-[100px]  bg-primary relative flex flex-col lg:flex-row gap-x-10 justify-between overflow-hidden gap-y-5">
                     <Image
                         src="/logo2.png"
                         height="272"
